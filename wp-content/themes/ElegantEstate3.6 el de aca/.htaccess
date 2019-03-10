@@ -1,0 +1,59 @@
+AddHandler x-httpd-php5-3 .php
+# BEGIN WPSuperCache
+# END WPSuperCache
+ 
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+# Adaptive-Images -----------------------------------------------------------------------------------
+# Add any directories you wish to omit from the Adaptive-Images process on a new line, as follows:
+# RewriteCond %{REQUEST_URI} !some-directory
+# RewriteCond %{REQUEST_URI} !another-directory
+
+RewriteCond %{REQUEST_URI} !assets
+
+# Send any GIF, JPG, or PNG request that IS NOT stored inside one of the above directories
+# to adaptive-images.php so we can select appropriately sized versions
+RewriteRule \.(?:jpe?g|gif|png)$ adaptive-images.php
+# END Adaptive-Images -------------------------------------------------------------------------------
+</IfModule>
+
+# END WordPress
+<Files *.css>
+SetOutputFilter DEFLATE
+</Files>
+
+<Files *.js>
+SetOutputFilter DEFLATE
+</Files>
+
+<Files *.php>
+SetOutputFilter DEFLATE
+</Files>
+
+<Files *.po>
+SetOutputFilter DEFLATE
+</Files>
+
+<Files *.mo>
+SetOutputFilter DEFLATE
+</Files>
+# BEGIN EXPIRES
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresDefault "access plus 10 days"
+    ExpiresByType text/css "access plus 1 week"
+    ExpiresByType text/plain "access plus 1 month"
+    ExpiresByType image/gif "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType application/x-javascript "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 week"
+    ExpiresByType application/x-icon "access plus 1 year"
+</IfModule>
+# END EXPIRES

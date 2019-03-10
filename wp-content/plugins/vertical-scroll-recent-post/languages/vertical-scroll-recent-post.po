@@ -1,0 +1,307 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Vertical scroll recent post\n"
+"POT-Creation-Date: 2016-05-07 23:47+0800\n"
+"PO-Revision-Date: 2016-05-07 23:47+0800\n"
+"Last-Translator: \n"
+"Language-Team: www.gopiplus.com <www.gopiplus.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../class-vertical-scroll-recent-post-settings.php:16
+msgid "Example"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:37
+msgid "Scrolling deleted."
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:42
+#: ../vertical-scroll-recent-post.php:86
+msgid "Vertical Scroll Recent Post"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:43
+#: ../class-vertical-scroll-recent-post-settings.php:123
+msgid "Add New"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:105
+msgid "Scrolling saved."
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:114
+msgid "Name"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:115
+msgid "Shortcode"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:116
+msgid "Action"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:128
+msgid "Edit"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:129
+msgid "Delete"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:135
+msgid "Plugin configuration option"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:137
+msgid "Drag and drop the <b>Widget</b>, multiple widgets allowed."
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:138
+msgid "Use the desired <b>Shortcode</b> in Posts/Pages."
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:139
+msgid ""
+"Add directly in to the <b>Theme</b> using the following <b>PHP code</b>:"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:144
+#: ../vertical-scroll-recent-post.php:86
+msgid "Check official website for more information"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:146
+#: ../vertical-scroll-recent-post.php:87
+msgid "click here"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:193
+msgid "General settings"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:194
+msgid "Display options"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:195
+msgid "Scrolling options"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:203
+#: ../class-vertical-scroll-recent-post-settings.php:206
+msgid "Widget title"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:209
+msgid "Please enter your widget's title."
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:215
+#: ../class-vertical-scroll-recent-post-settings.php:218
+msgid "Post title's height"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:221
+msgid ""
+"Please enter desired height for each post's title in widget. <br /> If any "
+"overlap in widget at front end, \n"
+"                                                you should change this value."
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:228
+#: ../class-vertical-scroll-recent-post-settings.php:231
+msgid "Post title's length"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:234
+msgid "Please enter desired length for each post's title in widget."
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:241
+#: ../class-vertical-scroll-recent-post-settings.php:244
+msgid "Select orderby field"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:255
+msgid "Please select which way you want to order the posts in widget."
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:261
+#: ../class-vertical-scroll-recent-post-settings.php:264
+msgid "Select order"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:270
+msgid "Please select the order you want your post's to be displayed."
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:283
+#: ../class-vertical-scroll-recent-post-settings.php:286
+msgid "Categories to be displayed"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:301
+msgid "Please select the categories you want to be displayed."
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:302
+msgid ""
+"You can choose multiple categories by holding the CTRL button and left mouse "
+"click"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:308
+#: ../class-vertical-scroll-recent-post-settings.php:311
+msgid "Exclude categories"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:317
+msgid "Please select this option if you want to exclude the above categories."
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:324
+#: ../class-vertical-scroll-recent-post-settings.php:327
+msgid "Display date of post"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:333
+msgid "Please select if you want to display date of post."
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:339
+#: ../class-vertical-scroll-recent-post-settings.php:342
+msgid "Date Format"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:354
+msgid "Last one contains the WordPress date format"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:359
+#: ../class-vertical-scroll-recent-post-settings.php:362
+msgid "Display post's thumbnail"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:368
+msgid "Please select if you want to display post's thumbnail."
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:369
+msgid "You may add a CSS rule to class vsrp_thumb to style the thumbnails"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:370
+msgid "by default the size is same as post title's height"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:376
+#: ../class-vertical-scroll-recent-post-settings.php:379
+msgid "Display link to category"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:385
+msgid "Please select if you want to display link to category posts."
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:398
+#: ../class-vertical-scroll-recent-post-settings.php:401
+msgid "Posts shown simultaneously"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:404
+msgid ""
+"Please enter how many post titles you want to be <br />\n"
+"                                                displayed simultaneously in "
+"the widget."
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:411
+#: ../class-vertical-scroll-recent-post-settings.php:414
+msgid "Totall posts displayed in scroll"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:417
+msgid ""
+"Please enter how many post titles you want to be <br />\n"
+"                                                shown in widget at totall."
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:424
+#: ../class-vertical-scroll-recent-post-settings.php:427
+msgid "Scrolling Speed"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:429
+msgid "Fast"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:431
+msgid "Slow"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:432
+msgid "Select how fast you want the widget to scroll."
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:438
+#: ../class-vertical-scroll-recent-post-settings.php:441
+msgid "Scrolling delay"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:444
+msgid "How many seconds you want to delay between scrollings."
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:450
+#: ../class-vertical-scroll-recent-post-settings.php:453
+msgid "Scrolling Direction"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:459
+msgid "Please select the direction of scrolling."
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:468
+msgid "Submit"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-settings.php:469
+msgid "Help"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-widget.php:13
+msgid "Vertical Recent Post Widget"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-widget.php:14
+msgid ""
+"Widget that creates a scrolling with specified post titles and featured "
+"images"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-widget.php:51
+msgid "Settings"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-widget.php:53
+msgid "Title"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-widget.php:59
+msgid "ID"
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-widget.php:157
+msgid "Show all of "
+msgstr ""
+
+#: ../class-vertical-scroll-recent-post-widget.php:165
+msgid "No data available"
+msgstr ""

@@ -1,0 +1,324 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ElegantEstate 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-02 18:02+0600\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Edgard_Roul <info@webmoderna.com.ar>\n"
+"Language-Team: Ann <anochka1985@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../comments.php:4
+msgid "Please do not load this page directly. Thanks!"
+msgstr "Porfavor no cargue esta página directamente. Gracias."
+
+#: ../comments.php:8
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Esta entrada está protegida por contraseña. Debes registrarte para ver los comentarios."
+
+#: ../comments.php:19
+msgid "0 Comments"
+msgstr "0 Comentarios"
+
+#: ../comments.php:19
+msgid "1 Comment"
+msgstr "1 Comentario"
+
+#: ../comments.php:19
+msgid "Comments"
+msgstr "Comentarios"
+
+#: ../comments.php:43
+msgid "Trackbacks/Pingbacks"
+msgstr "Trackbacks/Pingbacks"
+
+#: ../comments.php:63
+msgid "Submit Comment"
+msgstr "Enviar un comentario"
+
+#: ../comments.php:63
+msgid "Leave a Reply"
+msgstr "Responder"
+
+#: ../comments.php:63
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Responder a %s"
+
+#: ../footer.php:4
+msgid "Designed by "
+msgstr "Diseñado por"
+
+#: ../footer.php:4
+msgid "Powered by "
+msgstr "Desarrollado por"
+
+#: ../header.php:54
+#: ../header.php:79
+msgid "Home"
+msgstr "Inicio"
+
+#: ../page-blog.php:50
+#: ../page-contact.php:92
+#: ../page-full.php:35
+#: ../page-gallery.php:46
+#: ../page-login.php:43
+#: ../page-search.php:44
+#: ../page-search.php:54
+#: ../page-sitemap.php:44
+#: ../page-sitemap.php:48
+#: ../page-template-portfolio.php:55
+#: ../page.php:32
+msgid "Pages"
+msgstr "Páginas"
+
+#: ../page-blog.php:64
+msgid "Posted"
+msgstr "Publicado"
+
+#: ../page-blog.php:64
+msgid "by"
+msgstr "por"
+
+#: ../page-blog.php:64
+msgid "on"
+msgstr "el"
+
+#: ../page-blog.php:64
+msgid "in"
+msgstr "en"
+
+#: ../page-blog.php:64
+msgid "0 comments"
+msgstr "0 comentario"
+
+#: ../page-blog.php:64
+msgid "1 comment"
+msgstr "1 comentario"
+
+#: ../page-blog.php:64
+msgid "comments"
+msgstr "comentarios"
+
+#: ../page-blog.php:84
+msgid "read more"
+msgstr "leer más"
+
+#: ../page-blog.php:106
+#: ../page-contact.php:139
+#: ../page-full.php:36
+#: ../page-gallery.php:86
+#: ../page-login.php:59
+#: ../page-search.php:90
+#: ../page-sitemap.php:77
+#: ../page-template-portfolio.php:161
+#: ../page.php:33
+msgid "Edit this page"
+msgstr "Editar esta página"
+
+#: ../page-contact.php:19
+msgid "Make sure you entered the captcha. "
+msgstr "Asegurate de ingresar bien el código"
+
+#: ../page-contact.php:23
+msgid "You entered the wrong number in captcha. "
+msgstr "Ingresaste un código incorrecto!"
+
+#: ../page-contact.php:32
+msgid "Make sure you fill all fields. "
+msgstr "Asegurate de llenar bien todos los campos."
+
+#: ../page-contact.php:37
+msgid "Invalid Email. "
+msgstr "E-mail inválido! :-("
+
+#: ../page-contact.php:58
+msgid "Thanks for contacting us"
+msgstr "Gracias por contactarnos"
+
+#: ../page-contact.php:101
+msgid "Name"
+msgstr "Nombre"
+
+#: ../page-contact.php:105
+msgid "Email Address"
+msgstr "Dirección de E-Mail"
+
+#: ../page-contact.php:109
+msgid "Subject"
+msgstr "Teléfono"
+
+#: ../page-contact.php:116
+msgid "Captcha: "
+msgstr "Ingresar el resultado:"
+
+#: ../page-contact.php:132
+msgid "Reset"
+msgstr "Borrar"
+
+#: ../page-contact.php:133
+#: ../page-search.php:82
+msgid "Submit"
+msgstr "Enviar"
+
+#: ../page-gallery.php:69
+#: ../page-template-portfolio.php:116
+msgid "Zoom in"
+msgstr "Agrandar"
+
+#: ../page-gallery.php:70
+#: ../page-template-portfolio.php:117
+msgid "Read more"
+msgstr "Leer más"
+
+#: ../page-login.php:48
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: ../page-login.php:49
+msgid "Password"
+msgstr "Contraseña"
+
+#: ../page-login.php:53
+msgid "Not a member?"
+msgstr "Eres miembro?"
+
+#: ../page-login.php:53
+msgid "Register today!"
+msgstr "Registrate ahora!"
+
+#: ../page-search.php:48
+msgid "search this website"
+msgstr "buscar en este sitio web"
+
+#: ../page-search.php:51
+msgid "search this site..."
+msgstr "buscar este sitio..."
+
+#: ../page-search.php:53
+msgid "Posts"
+msgstr "Entradas"
+
+#: ../page-search.php:57
+msgid "Select a month"
+msgstr "Seleccionar un mes"
+
+#: ../page-sitemap.php:53
+msgid "Categories"
+msgstr "Categorías"
+
+#: ../page-sitemap.php:58
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: ../page-sitemap.php:70
+msgid "Authors"
+msgstr "Autores"
+
+#: ../searchform.php:4
+msgid "Search"
+msgstr "Buscar en este Sitio"
+
+#: ../includes/breadcrumbs.php:7
+msgid "Posts Tagged &quot;"
+msgstr "Entradas Etiquetadas &quot;"
+
+#: ../includes/breadcrumbs.php:9
+#: ../includes/breadcrumbs.php:11
+#: ../includes/breadcrumbs.php:13
+msgid "Posts made in"
+msgstr "Entradas hechas el"
+
+#: ../includes/breadcrumbs.php:15
+msgid "Search results for"
+msgstr "Búsqueda de resultados para"
+
+#: ../includes/breadcrumbs.php:27
+msgid "Posts by "
+msgstr "Publicado por"
+
+#: ../includes/entry.php:63
+#: ../includes/featured.php:71
+msgid "view the listing"
+msgstr "Ver más"
+
+#: ../includes/featured.php:79
+msgid "Previous"
+msgstr "Anterior"
+
+#: ../includes/featured.php:88
+msgid "Next"
+msgstr "Siguiente"
+
+#: ../includes/navigation.php:2
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Anterior"
+
+#: ../includes/navigation.php:3
+msgid "Next Entries &raquo;"
+msgstr "Siguiente  &raquo;"
+
+#: ../includes/no-results.php:3
+msgid "No Results Found"
+msgstr "No se encontraron resultados"
+
+#: ../includes/no-results.php:4
+msgid "The page you requested could not be found. Try refining your search, or use the navigation above to locate the post."
+msgstr "La página que buscas no puede ser encontrada. Intentá buscar de nuevo o usá la barra de navegación principal superior."
+
+#: ../includes/sidebar-listings.php:7
+msgid "Browse Listings"
+msgstr "Navegación por Listados"
+
+#: ../includes/sidebar-listings.php:20
+#: ../includes/sidebar-listings.php:32
+#: ../includes/sidebar-listings.php:44
+#: ../includes/sidebar-listings.php:56
+msgid "view"
+msgstr "ver"
+
+#: ../includes/sidebar-listings.php:65
+msgid "or search our property listings..."
+msgstr "Buscar en este Sitio"
+
+#: ../includes/single-product.php:51
+msgid "Bedroom"
+msgstr " Dormitorios"
+
+#: ../includes/single-product.php:54
+msgid "Bathroom"
+msgstr " Baños"
+
+#: ../includes/single-product.php:57
+msgid "Garage"
+msgstr "Cocheras"
+
+#: ../includes/single-product.php:60
+msgid "ft2"
+msgstr "Mts2"
+
+#: ../includes/single-product.php:68
+msgid "Contact An Agent"
+msgstr "Contacte un vendedor"
+
+#: ../includes/functions/comments.php:14
+msgid "(Edit)"
+msgstr "(Editar)"
+
+#: ../includes/functions/comments.php:18
+msgid "Your comment is awaiting moderation."
+msgstr "Tu comentario está esperando ser aprobado"
+
+#: ../includes/functions/comments.php:24
+msgid "Reply"
+msgstr "Responder"
+

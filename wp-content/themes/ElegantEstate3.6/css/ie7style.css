@@ -1,0 +1,13 @@
+*:first-child+html .clearfix{zoom:1;}
+div#header-top{z-index:3;position:relative;}
+div#bg, div#header{z-index:2;position:relative;}
+div#featured{z-index:1;position:relative;}
+p{overflow:auto;}
+span.sf-sub-indicator{padding-left:2px;}
+#go-top {filter:alpha(opacity=2);}
+#go-top:hover{filter:alpha(opacity=1);}
+#menu-oculto {filter:alpha(opacity=3);}
+#menu-oculto:hover {filter:alpha(opacity=10);}
+#returntotop {filter:alpha(opacity=50);}
+#returntotop:hover {filter:alpha(opacity=100);}
+#returntotop.returntotop-text {filter:alpha(opacity=100);}
