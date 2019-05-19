@@ -43,6 +43,8 @@
 						<?php get_template_part('includes/postinfo'); ?>
 						<?php the_content(); ?>
 						
+						
+
 						<?php wp_link_pages(array('before' => '<p><strong>'.esc_html__('Pages','ElegantEstate').':</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 						<?php edit_post_link(esc_html__('Edit this page','ElegantEstate')); ?>
 					</div> <!-- end .entry_content -->

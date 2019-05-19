@@ -117,3 +117,26 @@ select.error {
 #side-sortables .rwmb-input {
 	width: 100%;
 }
+
+/* Agregadas para unos casillas de verificación */
+.rwmb-checkbox-wrapper.villabrochero_reservado,
+.rwmb-checkbox-wrapper.villabrochero_vendido
+{
+	padding: 1em;
+	border-radius: 3px;
+}
+.rwmb-checkbox-wrapper.villabrochero_reservado
+{
+	background: #006553;
+}
+.rwmb-checkbox-wrapper.villabrochero_vendido
+{
+	background: #E0BF12;
+}
+
+.rwmb-checkbox-wrapper.villabrochero_vendido div.rwmb-label label,
+.rwmb-checkbox-wrapper.villabrochero_reservado div.rwmb-label label
+{
+	color: #ffffff;
+	font-weight: bolder;
+}

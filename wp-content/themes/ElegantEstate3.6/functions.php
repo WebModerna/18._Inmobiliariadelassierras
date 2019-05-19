@@ -313,8 +313,8 @@ function my_deregister_scripts()
 add_action( 'wp_footer', 'my_deregister_scripts' );
 
 // Desactivar los mensajes de actualización de plugin
-remove_action( 'load-update-core.php', 'wp_update_plugins' );
-add_filter( 'pre_site_transient_update_plugins', create_function( '$a', "return null;" ) );
+// remove_action( 'load-update-core.php', 'wp_update_plugins' );
+// add_filter( 'pre_site_transient_update_plugins', create_function( '$a', "return null;" ) );
 
 // Deshabilitar el mensaje de actualización del WordPress
 add_action( 'admin_head', 'ocultar_aviso_actualizacion', 1 );
@@ -411,5 +411,9 @@ add_action('admin_init','remove_meta_boxes');
 // Para google maps
 function google() { wp_dequeue_script( 'google-maps-api' ); }
 add_action( 'admin_enqueue_scripts', 'google', 99, 1 );
+
+// Inclusión de soporte para metaboxes
+require_once "includes/meta-box/meta-box.php";
+require_once "includes/demo.php";
 
 ?>

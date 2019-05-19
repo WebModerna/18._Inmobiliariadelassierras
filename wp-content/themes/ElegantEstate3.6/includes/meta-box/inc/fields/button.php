@@ -5,12 +5,12 @@
 class RWMB_Button_Field extends RWMB_Field
 {
 	/**
-	* Get field HTML
-	*
-	* @param mixed $meta
-	* @param array $field
-	* @return string
-	*/
+	 * Get field HTML
+	 *
+	 * @param mixed $meta
+	 * @param array $field
+	 * @return string
+	 */
 	static function html( $meta, $field )
 	{
 		$attributes = self::get_attributes( $field );
@@ -18,11 +18,11 @@ class RWMB_Button_Field extends RWMB_Field
 	}
 
 	/**
-	* Normalize parameters for field
-	*
-	* @param array $field
-	* @return array
-	*/
+	 * Normalize parameters for field
+	 *
+	 * @param array $field
+	 * @return array
+	 */
 	static function normalize( $field )
 	{
 		$field        = parent::normalize( $field );
@@ -31,12 +31,12 @@ class RWMB_Button_Field extends RWMB_Field
 	}
 
 	/**
-	* Get the attributes for a field
-	*
-	* @param array $field
-	* @param mixed $value
-	* @return array
-	*/
+	 * Get the attributes for a field
+	 *
+	 * @param array $field
+	 * @param mixed $value
+	 * @return array
+	 */
 	static function get_attributes( $field, $value = null )
 	{
 		$attributes = parent::get_attributes( $field, $value );

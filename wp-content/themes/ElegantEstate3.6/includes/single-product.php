@@ -18,74 +18,74 @@ $et_address = isset($custom["et_address"][0]) ? $custom["et_address"][0] : '270 
 $custom["thumbs"] = isset($custom["thumbs"][0]) ? unserialize($custom["thumbs"][0]) : array(); ?>
 
 <?php if ($et_band <> '') { ?>
-   <span class="band<?php echo(' '.esc_attr($et_band)); ?>"></span>
+	<span class="band<?php echo(' '.esc_attr($et_band)); ?>"></span>
 <?php }; ?>
 
 <?php if (!empty($custom["thumbs"])) { ?>
-   <div id="product-slider">
-      <div id="product-slides">
-         <?php for ($i = 0; $i <= count($custom["thumbs"])-1; $i++) { ?>
-            <div class="item-slide">
-               <a href="<?php echo esc_url($custom["thumbs"][$i]); ?>" rel="gallery" class="fancybox" title="<?php the_title(); ?>">
+	<div id="product-slider">
+		<div id="product-slides">
+			<?php for ($i = 0; $i <= count($custom["thumbs"])-1; $i++) { ?>
+				<div class="item-slide">
+					<a href="<?php echo esc_url($custom["thumbs"][$i]); ?>" rel="gallery" class="fancybox" title="<?php the_title(); ?>">
 				  <?php echo et_new_thumb_resize( et_multisite_thumbnail($custom["thumbs"][$i]), 293, 293 ); ?>
-                  <span class="overlay"></span>
-               </a>
-            </div> <!-- .item-slide -->
-         <?php }; ?>
-      </div> <!-- #product-slides -->
-      
-      <?php if ($et_price <> '') { ?>
-         <span class="price2"><span><?php echo esc_html($et_price); ?></span></span>
-      <?php }; ?>
-   </div> <!-- #product-slider -->
+						<span class="overlay"></span>
+					</a>
+				</div> <!-- .item-slide -->
+			<?php }; ?>
+		</div> <!-- #product-slides -->
+		
+		<?php if ($et_price <> '') { ?>
+			<span class="price2"><span><?php echo esc_html($et_price); ?></span></span>
+		<?php }; ?>
+	</div> <!-- #product-slider -->
 <?php }; ?>
 
 <div class="product-info">
-   <h1 class="title"><?php the_title(); ?></h1>
-   
-   <div class="product-types clearfix">
-      <?php if ($et_property_type <> '') { ?>
-         <span class="type-icon small"><?php echo esc_html($et_property_type); ?></span>
-      <?php } ?>
-      <?php if ($et_bedrooms_number <> '') { ?>
-         <span class="bed-icon"><?php echo esc_html($et_bedrooms_number); ?> <?php esc_html_e('Bedroom','ElegantEstate');  ?></span>
-      <?php } ?>
-      <?php if ($et_bathrooms_number <> '') { ?>
-         <span class="bath-icon"><?php echo esc_html($et_bathrooms_number); ?> <?php esc_html_e('Bathroom','ElegantEstate');  ?></span>
-      <?php } ?>
-      <?php if ($et_garages_number <> '') { ?>
-           <span class="garage-icon"><?php echo esc_html($et_garages_number); ?> <?php esc_html_e('Garage','ElegantEstate');  ?></span>
-        <?php } ?>
-      <?php if ($et_square_footage <> '') { ?>
-         <span class="ruler-icon"><?php echo esc_html($et_square_footage); ?> <?php esc_html_e('ft2','ElegantEstate');  ?></span>
-      <?php } ?>
-   </div> <!-- .product-types -->
-   
-   <div class="description">
-      <p><?php echo($et_description); ?></p>
-   </div> <!-- .description -->
-   
-   <a href="<?php echo get_option('elegantestate_contact_agent'); ?>" class="readmore"><span><?php esc_html_e('Contact An Agent','ElegantEstate'); ?></span></a>
+	<h1 class="title"><?php the_title(); ?></h1>
+	
+	<div class="product-types clearfix">
+		<?php if ($et_property_type <> '') { ?>
+			<span class="type-icon small"><?php echo esc_html($et_property_type); ?></span>
+		<?php } ?>
+		<?php if ($et_bedrooms_number <> '') { ?>
+			<span class="bed-icon"><?php echo esc_html($et_bedrooms_number); ?> <?php esc_html_e('Bedroom','ElegantEstate');  ?></span>
+		<?php } ?>
+		<?php if ($et_bathrooms_number <> '') { ?>
+			<span class="bath-icon"><?php echo esc_html($et_bathrooms_number); ?> <?php esc_html_e('Bathroom','ElegantEstate');  ?></span>
+		<?php } ?>
+		<?php if ($et_garages_number <> '') { ?>
+			  <span class="garage-icon"><?php echo esc_html($et_garages_number); ?> <?php esc_html_e('Garage','ElegantEstate');  ?></span>
+		  <?php } ?>
+		<?php if ($et_square_footage <> '') { ?>
+			<span class="ruler-icon"><?php echo esc_html($et_square_footage); ?> <?php esc_html_e('ft2','ElegantEstate');  ?></span>
+		<?php } ?>
+	</div> <!-- .product-types -->
+	
+	<div class="description">
+		<p><?php echo($et_description); ?></p>
+	</div> <!-- .description -->
+	
+	<a href="<?php echo get_option('elegantestate_contact_agent'); ?>" class="readmore"><span><?php esc_html_e('Contact An Agent','ElegantEstate'); ?></span></a>
 
 </div> <!-- #product-info -->
 
 <div class="clear"></div>
 
 <?php if (count($custom["thumbs"]) > 1) { ?>
-   <div id="product-thumbs" class="clearfix">
-      <div id="product-thumb-items">
-         <div id="smallthumbs">
-            <?php for ($i = 0; $i <= count($custom["thumbs"])-1; $i++) { ?>
-               <a href="#" class="small-controller<?php if($i==0) echo(' active'); if ($i==count($custom["thumbs"])-1) echo(' last') ?>" rel="<?php echo($i+1); ?>">
-                  <?php echo et_new_thumb_resize( et_multisite_thumbnail($custom["thumbs"][$i]), 49, 49 ); ?>
-                  <span class="overlay"></span>
-               </a>
-            <?php }; ?>
-         </div>
-         <a href="#" id="left-arrow"><?php esc_html_e('Previous','ElegantEstate');?></a>
-         <a href="#" id="right-arrow"><?php esc_html_e('Next','ElegantEstate');?></a>
-      </div> <!-- #product-thumb-items -->
-   </div> <!-- #product-thumbs -->
+	<div id="product-thumbs" class="clearfix">
+		<div id="product-thumb-items">
+			<div id="smallthumbs">
+				<?php for ($i = 0; $i <= count($custom["thumbs"])-1; $i++) { ?>
+					<a href="#" class="small-controller<?php if($i==0) echo(' active'); if ($i==count($custom["thumbs"])-1) echo(' last') ?>" rel="<?php echo($i+1); ?>">
+						<?php echo et_new_thumb_resize( et_multisite_thumbnail($custom["thumbs"][$i]), 49, 49 ); ?>
+						<span class="overlay"></span>
+					</a>
+				<?php }; ?>
+			</div>
+			<a href="#" id="left-arrow"><?php esc_html_e('Previous','ElegantEstate');?></a>
+			<a href="#" id="right-arrow"><?php esc_html_e('Next','ElegantEstate');?></a>
+		</div> <!-- #product-thumb-items -->
+	</div> <!-- #product-thumbs -->
 <?php }; ?>
 
 <?php the_content();
@@ -93,12 +93,27 @@ $custom["thumbs"] = isset($custom["thumbs"][0]) ? unserialize($custom["thumbs"][
 echo do_shortcode('[learn_more id="consulta-propiedad" caption="Consúltenos por esta Propiedad"][contact-form-7 id="1880" title="Consúltenos por esta Propiedad"][/learn_more]');?>
 <div class="clear"></div>
 
-<?php if ($integrate_gmaps) { ?>
-   <div id="gmaps-border">
-      <div id="gmaps-container"></div>
-   </div>  <!--end #gmaps-border-->
+<?php // El Google Maps
 
-<?php }; ?>
+// Colocando mapas en forma manual y corroborando si existe
+$inmobiliariadelassierras_googlemaps = rwmb_meta( 'inmobiliariadelassierras_googlemaps', '' );
+
+if($inmobiliariadelassierras_googlemaps)
+{
+	echo '<div id="gmaps-border"><div id="gmaps-container">' . $inmobiliariadelassierras_googlemaps . '</div></div>';
+}
+
+
+/*
+Estaba de antes.
+
+if ($integrate_gmaps) { ?>
+	<div id="gmaps-border">
+		<div id="gmaps-container"></div>
+	</div>  <!--end #gmaps-border-->
+
+<?php }; */
+?>
 
 <?php wp_link_pages(array('before' => '<p><strong>'.esc_html__('Pages','ElegantEstate').':</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 <?php edit_post_link(esc_html__('Edit this page','ElegantEstate')); ?>
