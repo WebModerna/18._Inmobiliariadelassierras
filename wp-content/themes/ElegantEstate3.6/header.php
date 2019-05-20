@@ -6,6 +6,16 @@
 <title><?php elegant_titles(); ?></title>
 <?php elegant_description(); ?>
 <?php elegant_keywords(); ?>
+<?php
+	// Meta Key words o más bien "palabrotas claves"
+
+	$inmobiliariadelassierras_meta_keywords = rwmb_meta( 'inmobiliariadelassierras_meta_keywords', '' );
+
+	if($inmobiliariadelassierras_meta_keywords)
+	{
+		echo '<meta name="keywords" content="' . $inmobiliariadelassierras_meta_keywords . '" />';
+	}
+?>
 <?php elegant_canonical(); ?>
 
 <?php if (wp_is_mobile()) { ?>

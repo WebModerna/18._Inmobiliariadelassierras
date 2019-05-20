@@ -43,6 +43,10 @@ $options = apply_filters ( 'et_default_options', array (
 			array( "name" => "general-4",
 				   "type" => "subnav-tab",
 				   "desc" => "Browse Listings"),
+
+			array( "name" => "general-5",
+				   "type" => "subnav-tab",
+				   "desc" => "Dirección"),
 				   
 		array( "type" => "subnavtab-end",),
 		

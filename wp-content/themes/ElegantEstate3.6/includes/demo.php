@@ -84,7 +84,7 @@ function inmobiliariadelassierras_register_meta_boxes( $meta_boxes )
 				'desc'  => __( 'Palabras claves (keywords) separadas por comas. Son útiles para SEO en algunos buscadores. Máximo 160 caracteres.', 'inmobiliariadelassierras' ),
 				'type'  => 'text',
 				// Default value (optional)
-				'std'   => __( '', 'inmobiliariadelassierras' ),
+				'std'   => __( 'Palabrota1, palabrota2, ...', 'inmobiliariadelassierras' ),
 				// CLONES: Add to make the field cloneable (i.e. have multiple value)
 				'clone' => false,
 			),

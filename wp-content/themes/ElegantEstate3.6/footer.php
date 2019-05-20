@@ -2,9 +2,9 @@
 		</div> <!-- end #content-top-->
 		<div id="content-bottom">	</div>
 		<p id="copyright">
-			<span style="font-size:12px;">© Copyright 2012 Inmobiliaria de las Sierras.</span><br />
+			<span style="font-size:12px;">© Copyright <?php echo Date(Y); ?> Inmobiliaria de las Sierras.</span><br />
 			Lunes a viernes de 9hs a 17hs. Sábados de 9hs a 13hs.<br />
-			Salta esq. Ruta 15 | Villa Cura Brochero | Traslasierra | Córdoba | Argentina | <strong>Tel: 03544 – 471274 / 15551212</strong><br />
+			Salta esq. Ruta 15 | Villa Cura Brochero | Traslasierra | Córdoba | Argentina | <strong>Tel: 03544-15551212</strong><br />
 			<strong>info@sierrasinmobiliaria.com.ar</strong> | <a href="http://www.sierrasinmobiliaria.com.ar" target="_blank">www.sierrasinmobiliaria.com.ar</a>
 		</p>
 		<p style="text-align:right !important; font-size:12px; ">Desarrollado por <a href="http://www.webmoderna.com.ar" target="_blank" style="text-align:right !important;font-size:12px !important;" >WebModerna</a>
